@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "open-testgen-llm"
+version = "0.1.0"
+description = ""
+authors = ["diegofiori <d.fiori@nebuly.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygithub = "^2.3.0"
+openai = "^1.14.3"
+pytest = "^8.1.1"
+coverage = "^7.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
